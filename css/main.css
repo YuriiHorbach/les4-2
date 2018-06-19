@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+	font-family: Natasha, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+header{
+	background: #4e8598;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.header{
+	width: 100%;
+	background: url(../img/header-bg.png) no-repeat center top/cover;
+	height: 100vh;
+}
+.header__logo{
+	padding-top:  55px;
+	width: 142px;
+	float: left;
+	margin-right: 177px;
+}
+
+.header__menu{
+	float: left;
+	padding: 0;
+	width: 66%;
+	font-family: 'Museo Sans Cyrl' sans-serif;
+	font-size: 15px;
+}
+
+
+.menu-list{
+	
+	padding: 0;
+	margin: 0;
+
+}
+
+.list__item{
+	float: left;
+}
