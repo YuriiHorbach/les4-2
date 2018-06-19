@@ -1,30 +1,107 @@
 @font-face {
-	font-family: 'Natasha' ,'MuseoSansCyrl';
+	font-family: 'Natasha';
 	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/MuseoSansCyrl.eot'); /* IE9 Compat Modes */
-
 	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-
     url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
     url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
     url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+}
 
-    src: url('../fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	
-    url('../fonts/MuseoSansCyrl.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/MuseoSansCyrl.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/MuseoSansCyrl.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/MuseoSansCyrl.svg#Natasha') format('svg'); /* Legacy iOS */
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-100.eot');
+  src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), 
+  url('MuseoSansCyrl-100.woff') format('woff'), 
+  url('MuseoSansCyrl-100.ttf') format('truetype'), 
+  url('MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), 
+  url('MuseoSansCyrl-300.woff') format('woff'), 
+  url('MuseoSansCyrl-300.ttf') format('truetype'), 
+  url('MuseoSansCyrl-300.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), 
+  url('MuseoSansCyrl-900.woff') format('woff'), 
+  url('MuseoSansCyrl-900.ttf') format('truetype'), 
+  url('MuseoSansCyrl-900.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-100Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-100Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-100Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-100Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-100Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-100Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-300Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-300Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-300Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-300Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-300Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MuseoSansCyrl';
+  src: url('../fonts/MuseoSansCyrl-900Italic.eot');
+  src: url('../fonts/MuseoSansCyrl-900Italic.woff2') format('woff2'), 
+  url('MuseoSansCyrl-900Italic.woff') format('woff'), 
+  url('MuseoSansCyrl-900Italic.ttf') format('truetype'), 
+  url('MuseoSansCyrl-900Italic.svg#MuseoSansCyrl-100Italic') format('svg'), 
+  url('MuseoSansCyrl-900Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: italic;
+} */
+
+
+
+
 
 
 body {
-	font-family: Natasha, MuseoSansCyrl, Arial, sans-serif;
+  position: relative;
+  font-family: 'MuseoSansCyrl', Nanasha, sans-serif;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+/* body {
+	font-family:'Museo Sans Cyrl', Natasha, Arial, sans-serif;
 	padding: 0px;
 	margin: 0px;
-}
+} */
 
 
 ol, ul {
@@ -36,6 +113,11 @@ header{
 	color: #fff;
 	text-transform: uppercase;
 
+}
+
+.ttu{
+	text-transform: uppercase;
+	
 }
 
 
@@ -68,8 +150,7 @@ header{
 	float: left;
 	padding: 0;
 	width: 66%;
-	font-family: 'Museo Sans Cyrl' sans-serif;
-	font-size: 15px;
+	
 }
 
 
@@ -82,4 +163,37 @@ header{
 
 .list__item{
 	float: left;
+	font-size: 15px;
+	font-weight: 900;
+	margin-right: 48px;
+	padding-top: 55px;
+	letter-spacing: 2px;
+}
+
+.list__item:nth-child(4){
+	margin-right: 0;
+	float: right;
+	text-transform: none;
+	letter-spacing: 2px;
+}
+
+.email{
+	font-size: 13px;
+	font-weight: 300;
+	border-bottom: none;
+	
+}
+
+.email:visited{
+	color: #fff;
+}
+
+.email:visited{
+	color: #fff;
+}
+
+
+.email:hover{
+	border-bottom: 1px solid #6a6d69;
+	color: #fff;
 }
