@@ -122,6 +122,10 @@ header{
 	
 }
 
+.tac{
+	text-align: center;
+}
+
 
 .clearfix:after {
 	content:'';
@@ -207,3 +211,48 @@ header{
 	border-bottom: 1px solid #6a6d69;
 	color: #fff;
 }
+.header__text-block{
+	padding-top: 295px;
+}
+
+.my-work__code-frontend{
+	margin:33px 0 0 0;
+}
+
+.my-work__circle{
+	border: 1px solid #fff;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+	margin-top: 263px;
+	margin-top: 265px;
+	border-radius: 50%;
+
+}
+
+.fa-long-arrow-alt-down{
+	font-weight: lighter;
+	line-height: 100%;
+}
+
+.my-work__arrow{
+	margin-top: 30%;
+}
+/*header*/
+
+.my-work__main-header{
+	font-family:Natasha, Arial sans-serif;
+	font-size: 49px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 63px;
+}
+
+.my-work__code-frontend{
+	font-size: 29px;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 4px;
+}
+
