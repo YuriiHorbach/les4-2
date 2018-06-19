@@ -1,16 +1,27 @@
 @font-face {
-	font-family: 'Natasha';
+	font-family: 'Natasha' ,'MuseoSansCyrl';
 	src: url('../fonts/Natasha.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl.eot'); /* IE9 Compat Modes */
+
 	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+
     url('../fonts/Natasha.woff2') format('woff2'), /* Super Modern Browsers */
     url('../fonts/Natasha.woff') format('woff'), /* Pretty Modern Browsers */
     url('../fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('../fonts/Natasha.svg#Natasha') format('svg'); /* Legacy iOS */
+
+    src: url('../fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	
+    url('../fonts/MuseoSansCyrl.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/MuseoSansCyrl.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/MuseoSansCyrl.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MuseoSansCyrl.svg#Natasha') format('svg'); /* Legacy iOS */
+}
 }
 
 
 body {
-	font-family: Natasha, Arial, sans-serif;
+	font-family: Natasha, MuseoSansCyrl, Arial, sans-serif;
 	padding: 0px;
 	margin: 0px;
 }
