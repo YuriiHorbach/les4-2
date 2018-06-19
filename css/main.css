@@ -87,8 +87,10 @@
 
 body {
   position: relative;
-  font-family: 'MuseoSansCyrl', Nanasha, sans-serif;
+  font-family: 'MuseoSansCyrl', Natasha, sans-serif;
   font-weight: 500;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -168,6 +170,7 @@ header{
 	margin-right: 48px;
 	padding-top: 55px;
 	letter-spacing: 2px;
+
 }
 
 .list__item:nth-child(4){
@@ -177,10 +180,17 @@ header{
 	letter-spacing: 2px;
 }
 
+.list__link{
+	text-decoration: none;
+	color: #fff;
+}
+
 .email{
 	font-size: 13px;
 	font-weight: 300;
 	border-bottom: none;
+	text-decoration: none;
+	color: #fff;
 	
 }
 
@@ -193,7 +203,7 @@ header{
 }
 
 
-.email:hover{
+.email:hover, .list__link:hover{
 	border-bottom: 1px solid #6a6d69;
 	color: #fff;
 }
