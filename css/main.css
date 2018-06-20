@@ -149,7 +149,7 @@ header{
 	width: 100%;
 	background: url(../img/header-bg.png) no-repeat center top/cover;
 	height: 100vh;
-	background-size: 100%;
+	//background-size: 100%;
 }
 .header__logo{
 	padding-top:  55px;
@@ -218,7 +218,8 @@ header{
 	color: #fff;
 }
 .header__text-block{
-	padding-top: 295px;
+	//padding-top: 295px;
+	padding-top: 23%;
 }
 
 .my-work__code-frontend{
@@ -265,12 +266,19 @@ header{
 	font-size: 37px;
 	letter-spacing: 4px;
 	color: #22241b;
+	margin: 0;
+	padding-top: 86px;
 }
 
 .about-me__header3{
 	color: #888886;
 	font-size: 22px;
 	letter-spacing: 4px;
+	margin: 78px 0 48px 0;
+}
+
+.about-me__header3-achivements{
+	margin: 78px 0 27px 0;
 }
 
 .about-me__background{
@@ -281,6 +289,7 @@ header{
 .about-me__text{
 	font-size: 15px;
 	width: 430px;
+	margin: 0 0 40px 0;
 	
 }
 
@@ -322,3 +331,6 @@ header{
 	line-height: 103px;
 }
 
+.achivements__text{
+	margin: 26px 0 68px 0;
+}
