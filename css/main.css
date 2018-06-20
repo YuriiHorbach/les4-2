@@ -26,11 +26,13 @@
   src: url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), 
   url('MuseoSansCyrl-300.woff') format('woff'), 
   url('MuseoSansCyrl-300.ttf') format('truetype'), 
-  url('MuseoSansCyrl-300.svg#MuseoSansCyrl-100') format('svg'), 
+  url('MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg'), 
   url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype');
   font-weight: 300;
   font-style: normal;
 }
+
+
 
 @font-face {
   font-family: 'MuseoSansCyrl';
@@ -332,5 +334,58 @@ header{
 }
 
 .achivements__text{
-	margin: 26px 0 68px 0;
+	margin: 26px 0 0 0;
+}
+
+/*connection*/
+
+.about-me__connection{
+	margin-top: 68px;
+	width: 460px;
+	float: left;
+}
+
+.about-me__header3-connection{
+	color: #888886;
+	font-size: 22px;
+	letter-spacing: 4px;
+	margin: 0;
+}
+
+
+
+.connection-list{
+	float: left;
+	box-sizing: content-box;
+	padding: 0;
+	margin: 40px 45px 0 0;
+
+}
+
+.connection-list__list-item{
+	line-height: 1.8;
+}
+
+.connection-list__link {
+	color: #204d15;
+	text-decoration: 1px solid #204d15;
+}
+
+
+.about-me__do-not-shy{
+	float: left;
+	width: 245px;
+}
+
+.do-not-shy__img{
+	margin: 43px 20px 0 0;
+	float: left;
+	
+}
+
+.do-not-shy__text{
+	display: block;
+	margin-top: 70px;
+	font-style: italic;
+	font-size: 14px;
 }
