@@ -292,7 +292,8 @@ header{
 	font-size: 15px;
 	width: 430px;
 	margin: 0 0 40px 0;
-	
+	line-height: 1.5;
+	color: #22241b;
 }
 
 .about-me__achivements{
@@ -388,4 +389,47 @@ header{
 	margin-top: 70px;
 	font-style: italic;
 	font-size: 14px;
+}
+
+
+.skills__header{
+	margin:50px 0 0 0;
+	font-size: 37px;
+	color: #22241b;
+}
+
+.skills__list{
+	margin: 63 0 0 0;
+	padding: 0;
+}
+
+.skills__item{
+	width: 195px;
+	height: 65px;
+	float: left;
+	margin-right: 41px;
+}
+
+.skills__item:nth-child(4){
+	margin-right: 0;
+}
+
+.skills__number{
+	background: url(../img/circle.png) no-repeat center;
+	font-size: 13px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	color: #204d15;
+	float: left;
+	margin:0 27px 0 0;
+}
+
+.skills__text{
+	padding-top: 18px;
+	color: #3a3c34;
+	font-size: 15px;
+	font-weight: 900;
+	margin: 0;
 }
