@@ -19,6 +19,11 @@
        padding-top: 19%;
    }
 
+   .header__menu{
+	    margin: 0 0 0 0%;
+	    padding: 0 0 0 0%;
+   }
+
    .list__item {
    	    margin-right: 21px;
 		margin-left: 38px;
@@ -29,19 +34,45 @@
 	}
 
 	.about-me__achivements {
-    	float: left;
-    	width: 655px;
+	    float: left;
+	    width: 100%;
+	}
+
+	.achivements__list {
+	    margin: 0 auto;
+	    width: 71%;
+	}
+
+	.about-me__connection{
+		width: 100%;
+	}
+
+	.about-me__connection-without-header {
+	    width: 71%;
+	    margin: 0 auto;
+	}
+
+	.skills__list{
+		width: 71%;
+	    margin: 0 auto;
+	    padding: 5% 0 0 0;
 
 	}
 
-	.achivements__list{
-		margin: 0 auto;
+	.skills__item {
+	    margin: 0 8% 8% auto;
 	}
 
+	.works__list{
+		width: 100%;
+	}
 
-
-}
-
+	.works__item {
+       margin: 0 auto 6% 25%;
+	}
+	.footer {
+   	  margin: 10% auto;
+	}
 
 	
 }
