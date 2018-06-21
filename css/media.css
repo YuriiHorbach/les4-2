@@ -33,6 +33,10 @@
 	    margin: 57px 0 0 0;
 	}
 
+	.about-me__text{
+		width: 50%;
+	}
+
 	.about-me__achivements {
 	    float: left;
 	    width: 100%;
@@ -83,4 +87,76 @@
 	.container{
 		width: 90%;
 	}
+
+	.header{
+		background: url(../img/header-bg.png) no-repeat 39% top/cover;
+	}
+
+	.header__menu{
+		display: none;
+	}
+
+	.my-work__main-header{
+		font-size: 47px;
+	}
+
+	.about-me__text{
+		width: 71%;
+	}
+
+
+	.about-me__header3{
+		margin-bottom: 10%;
+	}
+
+	.about-me__header3-achivements{
+		margin: 14% auto;
+	}
+
+	.about-me__achivements {
+	    float: left;
+	    width: 100%;
+	}
+
+	.achivements__list {
+	    margin: 0 auto;
+	    width: 100%;
+	   	}
+
+	.achivements__item{
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+
+	.achivements__item:nth-child(1) {
+    	margin-left: 0;
+	}
+
+
+	.achivements__number{
+		width: 100%;
+	}
+
+	.achivements__text {
+    	margin: 0 0 0 0;
+	}
+
+	.connection-list {
+	   margin: 4% 13%;
+	}
+
+	.about-me__do-not-shy{
+		margin: 0 10%;
+	}
+
+	.do-not-shy__img {
+		margin: 13% 18%;
+	    float: none;
+	}
+
+	.do-not-shy__text {
+	    margin: 4% -1% 22% 0;
+	}
+
 }
