@@ -52,7 +52,7 @@
 	}
 
 	.about-me__connection-without-header {
-	    width: 71%;
+	    width: 72%;
 	    margin: 0 auto;
 	}
 
@@ -143,11 +143,11 @@
 	}
 
 	.connection-list {
-	   margin: 4% 13%;
+	  margin: 0;
 	}
-
+/* margin: 4% 13%; */
 	.about-me__do-not-shy{
-		margin: 0 10%;
+		width: 100%;
 	}
 
 	.do-not-shy__img {
@@ -161,10 +161,17 @@
 
 	.skills__list{
 	    padding: 15% 0 0 0;
+	    width: 200px;
+		margin: 0 auto;
 	}
 	
 	.works__item {
     	margin: 0 auto 6% -3%;
+	}
+
+	.about-me__connection-without-header {
+	    width: 166px;
+	    margin: 0 auto;
 	}
 
 }
