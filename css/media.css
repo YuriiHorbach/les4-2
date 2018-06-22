@@ -159,4 +159,12 @@
 	    margin: 4% -1% 22% 0;
 	}
 
+	.skills__list{
+	    padding: 15% 0 0 0;
+	}
+	
+	.works__item {
+    	margin: 0 auto 6% -3%;
+	}
+
 }
