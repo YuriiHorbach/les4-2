@@ -68,11 +68,13 @@
 	}
 
 	.works__list{
-		width: 100%;
+		width: 300px;
+		padding-top: 5%;
+		margin: 3% auto;
 	}
 
 	.works__item {
-       margin: 0 auto 6% 25%;
+      margin: 3% auto;
 	}
 	.footer {
    	  margin: 10% auto;
@@ -166,7 +168,12 @@
 	}
 	
 	.works__item {
-    	margin: 0 auto 6% -3%;
+    	margin: 3% auto;
+    	
+	}
+
+	.works__img{
+		margin: 0;
 	}
 
 	.about-me__connection-without-header {
