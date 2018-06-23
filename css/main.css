@@ -353,6 +353,10 @@ header{
 	margin: 0;
 }
 
+.about-me__connection-without-header{
+	width: 160px;
+}
+
 
 
 .connection-list{
@@ -408,6 +412,7 @@ display: block;
 .skills__list{
 	margin: 63 0 0 0;
 	padding: 0;
+
 }
 
 .skills__item{
@@ -522,3 +527,17 @@ display: block;
 	border:1px solid green;
 }
  */
+
+.ul1{
+	border:1px solid red;
+	width: 80%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.li1{
+	border:1px solid green;
+	width: 50%;
+	padding: 0;
+	margin: 0 auto;
+}
